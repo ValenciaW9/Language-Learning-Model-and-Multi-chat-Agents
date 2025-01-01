@@ -1,0 +1,23 @@
+{
+    "pins": [
+        {
+            "pin": "D0",
+            "type": "Digital",
+            "name": "GPIO",
+            "description": "General Purpose Input/Output",
+            "functions": ["read", "write"],
+            "voltage": "3.3V",
+            "current": "20mA"
+        },
+        {
+            "pin": "D1",
+            "type": "Digital",
+            "name": "GPIO",
+            "description": "General Purpose Input/Output",
+            "functions": ["read", "write"],
+            "voltage": "3.3V",
+            "current": "20mA"
+        }
+        // Add more pin data as needed
+    ]
+}

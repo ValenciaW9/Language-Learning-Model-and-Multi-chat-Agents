@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photon Pin Map</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <h1>Photon Pin Map</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Pin</th>
+                <th>Type</th>
+                <th>Name</th>
+                <th>Description</th>
+                <th>Functions</th>
+                <th>Voltage</th>
+                <th>Current/Resolution</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>D0</td>
+                <td>Digital</td>
+                <td>GPIO</td>
+                <td>General Purpose Input/Output</td>
+                <td>read, write</td>
+                <td>3.3V</td>
+                <td>20mA</td>
+            </tr>
+            <tr>
+                <td>D1</td>
+                <td>Digital</td>
+                <td>GPIO</td>
+                <td>General Purpose Input/Output</td>
+                <td>read, write</td>
+                <td>3.3V</td>
+                <td>20mA</td>
+            </tr>
+            <tr>
+                <td>D2</td>
+                <td>Digital</td>
+                <td>GPIO/PWM</td>
+                <td>General Purpose Input/Output / PWM</td>
+                <td>read, write, pwm</td>
+                <td>3.3V</td>
+                <td>20mA</td>
+            </tr>
+            <tr>
+                <td>D3</td>
+                <td>Digital</td>
+                <td>GPIO/PWM</td>
+                <td>General Purpose Input/Output / PWM</td>
+                <td>read, write, pwm</td>
+                <td>3.3V</td>
+                <td>20mA</td>
+            </tr>
+            <tr>
+                <td>A0</td>
+                <td>Analog</td>
+                <td>ADC</td>
+                <td>Analog to Digital Converter Input</td>
+                <td>read</td>
+                <td>3.3V</td>
+                <td>12-bit</td>
+            </tr>
+            <tr>
+                <td>A1</td>
+                <td>Analog</td>
+                <td>ADC</td>
+                <td>Analog to Digital Converter Input</td>
+                <td>read</td>
+                <td>3.3V</td>
+                <td>12-bit</td>
+            </tr>
+            <tr>
+                <td>A6</td>
+                <td>Analog</td>
+                <td>DAC</td>
+                <td>Digital to Analog Converter Output</td>
+                <td>write</td>
+                <td>3.3V</td>
+                <td>12-bit</td>
+            </tr>
+            <tr>
+                <td>RX</td>
+                <td>Digital</td>
+                <td>UART RX</td>
+                <td>Serial Receive (UART)</td>
+                <td>serial_receive</td>
+                <td>3.3V</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>TX</td>
+                <td>Digital</td>
+                <td>UART TX</td>
+                <td>Serial Transmit (UART)</td>
+                <td>serial_transmit</td>
+                <td>3.3V</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>3V3</td>
+                <td>Power</td>
+                <td>3.3V Power</td>
+                <td>3.3V Power Supply</td>
+                <td>-</td>
+                <td>3.3V</td>
+                <td>500mA</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drone AI Monitoring System</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+        }
+        main {
+            padding: 2rem;
+            text-align: center;
+        }
+        button {
+            padding: 1rem 2rem;
+            font-size: 1rem;
+            background: #007BFF;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        button:hover {
+            background: #0056b3;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            padding: 1rem;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <h1>Drone AI Monitoring System</h1>
+</header>
+<main>
+    <h2>Welcome to the Drone Monitoring Interface</h2>
+    <p>Click the button below to start the monitoring system.</p>
+    <form action="/run-monitoring" method="post">
+        <button type="submit">Start Monitoring</button>
+    </form>
+</main>
+<footer>
+    <p>&copy; 2024 Drone AI Monitoring System. All rights reserved.</p>
+</footer>
+</body>
+</html>
